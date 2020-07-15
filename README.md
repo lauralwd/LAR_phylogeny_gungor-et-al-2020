@@ -6,9 +6,8 @@ Phylogeny of LAR and LAR likes in plants: [treefile](https://raw.githubuserconte
 main text figure [png]() [pdf]()
 supplemental figure [png]() [pdf]()
 
-Supplemental figure:
-
-Final alignment raw and trimmed)
+Final alignment: [raw](https://raw.githubusercontent.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/data/alignments_raw/1kP_LAR_selectionv1_guide_v5_aligned-mafft-linsi.fasta) 
+and [trimmed](https://raw.githubusercontent.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/data/alignments_trimmed/1kP_LAR_selectionv1_guide_v5_aligned-mafft-linsi_trim-gt4-seq95-res7.fasta)
 
 Final fasta used for alignment:
 
