@@ -1,0 +1,36 @@
+CAPN-2038587-Equisetum_diffusum
+JVSZ-2129506-Equisetum_hymale
+JVSZ-2001809-Equisetum_hymale
+JVSZ-2001808-Equisetum_hymale
+JVSZ-2001810-Equisetum_hymale
+JVSZ-2001811-Equisetum_hymale
+UGNK-2017109-Marattia_attenuata
+UGNK-2021182-Marattia_attenuata
+MEKP-2006924-Dipteris_conjugata
+EWXK-2119988-Thyrsopteris_elegans
+PNZO-2007161-Culcita_macrocarpa
+PNZO-2007160-Culcita_macrocarpa
+PNZO-2013494-Culcita_macrocarpa
+EWXK-2121103-Thyrsopteris_elegans
+VIBO-2007835-Osmunda_javanica
+MEKP-2104845-Dipteris_conjugata
+EWXK-2121424-Thyrsopteris_elegans
+PNZO-2150800-Culcita_macrocarpa
+VIBO-2006262-Osmunda_javanica
+VIBO-2006264-Osmunda_javanica
+CQPW-2096458-Anemia_tomentosa
+MEKP-2001942-Dipteris_conjugata
+CQPW-2014224-Anemia_tomentosa
+PNZO-2149017-Culcita_macrocarpa
+EWXK-2024179-Thyrsopteris_elegans
+EWXK-2022152-Thyrsopteris_elegans
+PNZO-2026447-Culcita_macrocarpa
+CVEG-2016335-Azolla_cf._caroliniana
+CVEG-2016336-Azolla_cf._caroliniana
+Afi_v2_s1241G000110.6 (PCBER)
+Afi_v2_s1241G000080.2 (IFR)
+PIVW-2013241-Ceratopteris_thalictroides
+PIVW-2091514-Ceratopteris_thalictroides
+ZXJO-2007558-Hemionitis_arifolia
+YJJY-2003866-Woodsia_scopulina
+YJJY-2003867-Woodsia_scopulina

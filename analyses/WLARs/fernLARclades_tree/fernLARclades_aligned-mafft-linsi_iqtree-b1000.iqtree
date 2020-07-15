@@ -1,0 +1,450 @@
+IQ-TREE 1.6.11 built Jul 27 2019
+
+Input file name: ./analyses/WLARs/fernLARclades_aligned-mafft-linsi.fasta
+Type of analysis: tree reconstruction + non-parametric bootstrap (1000 replicates)
+Random seed number: 226022
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 90 sequences with 476 amino-acid sites
+Number of constant sites: 166 (= 34.8739% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 166 (= 34.8739% of all sites)
+Number of parsimony informative sites: 282
+Number of distinct site patterns: 409
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JTTDCMut+I+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0269
+Gamma shape alpha: 1.6206
+
+ Category  Relative_rate  Proportion
+  0         0              0.0269
+  1         0.2501         0.2433
+  2         0.6243         0.2433
+  3         1.0860         0.2433
+  4         2.1502         0.2433
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -20156.0932 (s.e. 874.4734)
+Unconstrained log-likelihood (without tree): -2810.7749
+Number of free parameters (#branches + #model parameters): 179
+Akaike information criterion (AIC) score: 40670.1863
+Corrected Akaike information criterion (AICc) score: 40887.8890
+Bayesian information criterion (BIC) score: 41415.7961
+
+Total tree length (sum of branch lengths): 15.9441
+Sum of internal branch lengths: 7.3665 (46.2021% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0021) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'WLAR1_Afi_v2_s1241G000080.2' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++-----WLAR1_Afi_v2_s1241G000080.2
+|
+|  +--WLAR1_Afi_v2_s1241G000110.6
++--| (67)
+|  |                                                          +**LAR_Azolla
+|  |                                                       +--| (94)
+|  |                                                       |  +--LAR_Azfi_s0197.g057377
+|  |                                                    +--| (100)
+|  |                                                    |  +--LAR_CVEG-2005709-Azolla_cf._caroliniana
+|  |                                                 +--| (49)
+|  |                                                 |  |        +--LAR_PIVW-2004875-Ceratopteris_thalictroides
+|  |                                                 |  |     +--| (100)
+|  |                                                 |  |     |  |  +**LAR_PIVW-2004244-Ceratopteris_thalictroides
+|  |                                                 |  |     |  +--| (100)
+|  |                                                 |  |     |     +**LAR_PIVW-2004243-Ceratopteris_thalictroides
+|  |                                                 |  |  +--| (100)
+|  |                                                 |  |  |  |     +**LAR_ZXJO-2004443-Hemionitis_arifolia
+|  |                                                 |  |  |  |  +--| (100)
+|  |                                                 |  |  |  |  |  |  +**LAR_ZXJO-2004441-Hemionitis_arifolia
+|  |                                                 |  |  |  |  |  +**| (25)
+|  |                                                 |  |  |  |  |     +**LAR_ZXJO-2004442-Hemionitis_arifolia
+|  |                                                 |  |  |  +--| (61)
+|  |                                                 |  |  |     |  +**LAR_ZXJO-2003107-Hemionitis_arifolia
+|  |                                                 |  |  |     +--| (100)
+|  |                                                 |  |  |        +**LAR_ZXJO-2003105-Hemionitis_arifolia
+|  |                                                 |  +--| (99)
+|  |                                                 |     +--LAR_YJJY-2005734-Woodsia_scopulina
+|  |                                              +--| (13)
+|  |                                              |  |  +--LAR_PNZO-2008392-Culcita_macrocarpa
+|  |                                              |  +--| (74)
+|  |                                              |     +--LAR_PNZO-2022483-Culcita_macrocarpa
+|  |                                           +--| (92)
+|  |                                           |  |     +--LAR_MEKP-2006126-Dipteris_conjugata
+|  |                                           |  |  +--| (29)
+|  |                                           |  |  |  +--LAR_PNZO-2020054-Culcita_macrocarpa
+|  |                                           |  +--| (22)
+|  |                                           |     |  +--LAR_MEKP-2104936-Dipteris_conjugata
+|  |                                           |     +--| (44)
+|  |                                           |        +--LAR_CQPW-2095554-Anemia_tomentosa
+|  |                                        +--| (98)
+|  |                                        |  +--LAR_VIBO-2074404-Osmunda_javanica
+|  |                                     +--| (65)
+|  |                                     |  +--LAR_VIBO-2075523-Osmunda_javanica
+|  |                                  +--| (48)
+|  |                                  |  +----LAR_MEKP-2009607-Dipteris_conjugata
+|  |                             +----| (100)
+|  |                             |    +---LAR_UGNK-2002432-Marattia_attenuata
+|  |                          +--| (52)
+|  |                          |  |                             +---------WLAR2_CQPW-2024177-Anemia_tomentosa
+|  |                          |  |                         +---| (87)
+|  |                          |  |                         |   +--------------WLAR2_PIVW-2009700-Ceratopteris_thalictroides
+|  |                          |  |             +-----------| (100)
+|  |                          |  |             |           +--------WLAR2_MEKP-2104929-Dipteris_conjugata
+|  |                          |  |          +--| (75)
+|  |                          |  |          |  |           +--WLAR2_EWXK-2012291-Thyrsopteris_elegans
+|  |                          |  |          |  |        +--| (100)
+|  |                          |  |          |  |        |  +**WLAR2_EWXK-2012289-Thyrsopteris_elegans
+|  |                          |  |          |  |     +--| (86)
+|  |                          |  |          |  |     |  +-----WLAR2_YJJY-2008533-Woodsia_scopulina
+|  |                          |  |          |  +-----| (99)
+|  |                          |  |          |        |           +**WLAR2_ZXJO-2008167-Hemionitis_arifolia
+|  |                          |  |          |        +-----------| (100)
+|  |                          |  |          |                    +**WLAR2_ZXJO-2008168-Hemionitis_arifolia
+|  |                          |  |       +--| (45)
+|  |                          |  |       |  +------WLAR2_MEKP-2014651-Dipteris_conjugata
+|  |                          |  |  +----| (99)
+|  |                          |  |  |    |  +------WLAR2_MEKP-2105811-Dipteris_conjugata
+|  |                          |  |  |    +--| (84)
+|  |                          |  |  |       +--WLAR2_VIBO-2008406-Osmunda_javanica
+|  |                          |  +--| (80)
+|  |                          |     |                 +----WLAR2_MEKP-2101772-Dipteris_conjugata
+|  |                          |     |            +----| (100)
+|  |                          |     |            |    |          +**WLAR2_MEKP-2006789-Dipteris_conjugata
+|  |                          |     |            |    +----------| (100)
+|  |                          |     |            |               +**WLAR2_MEKP-2006790-Dipteris_conjugata
+|  |                          |     |         +--| (76)
+|  |                          |     |         |  +-------WLAR2_UGNK-2020446-Marattia_attenuata
+|  |                          |     |      +--| (58)
+|  |                          |     |      |  |                  +**WLAR2_EWXK-2000843-Thyrsopteris_elegans
+|  |                          |     |      |  |               +--| (100)
+|  |                          |     |      |  |               |  +--WLAR2_EWXK-2000844-Thyrsopteris_elegans
+|  |                          |     |      |  +---------------| (100)
+|  |                          |     |      |                  +--WLAR2_EWXK-2000842-Thyrsopteris_elegans
+|  |                          |     |  +---| (99)
+|  |                          |     |  |   |           +--WLAR2_ALVQ-2004507-Tmesipteris_parva
+|  |                          |     |  |   |        +--| (97)
+|  |                          |     |  |   |        |  +**WLAR2_ALVQ-2004506-Tmesipteris_parva
+|  |                          |     |  |   |     +--| (97)
+|  |                          |     |  |   |     |  +--WLAR2_ALVQ-2004508-Tmesipteris_parva
+|  |                          |     |  |   +-----| (100)
+|  |                          |     |  |         +--WLAR2_QVMR-2013662-Psilotum_nudum
+|  |                          |     +--| (94)
+|  |                          |        |           +**WLAR2_ALVQ-2000101-Tmesipteris_parva
+|  |                          |        |        +--| (100)
+|  |                          |        |        |  +**WLAR2_ALVQ-2000100-Tmesipteris_parva
+|  |                          |        |     +--| (100)
+|  |                          |        |     |  +--WLAR2_QVMR-2016059-Psilotum_nudum
+|  |                          |        |  +--| (97)
+|  |                          |        |  |  +---WLAR2_ALVQ-2018495-Tmesipteris_parva
+|  |                          |        +--| (75)
+|  |                          |           |         +-----WLAR2_UGNK-2021731-Marattia_attenuata
+|  |                          |           |     +---| (98)
+|  |                          |           |     |   |       +**WLAR2_PNZO-2016614-Culcita_macrocarpa
+|  |                          |           |     |   +-------| (100)
+|  |                          |           |     |           +--WLAR2_PNZO-2016613-Culcita_macrocarpa
+|  |                          |           |  +--| (40)
+|  |                          |           |  |  |        +--WLAR2_ALVQ-2007082-Tmesipteris_parva
+|  |                          |           |  |  +--------| (100)
+|  |                          |           |  |           +--WLAR2_QVMR-2017404-Psilotum_nudum
+|  |                          |           +--| (38)
+|  |                          |              +------WLAR2_UGNK-2006528-Marattia_attenuata
+|  |                       +--| (29)
+|  |                       |  |           +--WLAR1_CAPN-2038587-Equisetum_diffusum
+|  |                       |  |  +--------| (100)
+|  |                       |  |  |        +--WLAR1_JVSZ-2129506-Equisetum_hymale
+|  |                       |  +--| (98)
+|  |                       |     |    +--WLAR1_JVSZ-2001809-Equisetum_hymale
+|  |                       |     +----| (100)
+|  |                       |          |     +--WLAR1_JVSZ-2001810-Equisetum_hymale
+|  |                       |          |  +--| (100)
+|  |                       |          |  |  +**WLAR1_JVSZ-2001811-Equisetum_hymale
+|  |                       |          +--| (100)
+|  |                       |             +--WLAR1_JVSZ-2001808-Equisetum_hymale
+|  |                    +--| (51)
+|  |                    |  |  +-------WLAR1_UGNK-2017109-Marattia_attenuata
+|  |                    |  +--| (98)
+|  |                    |     +----WLAR1_UGNK-2021182-Marattia_attenuata
+|  |                 +--| (81)
+|  |                 |  |                 +--WLAR1_EWXK-2121424-Thyrsopteris_elegans
+|  |                 |  |          +------| (100)
+|  |                 |  |          |      +--WLAR1_PNZO-2150800-Culcita_macrocarpa
+|  |                 |  |     +----| (100)
+|  |                 |  |     |    +----WLAR1_MEKP-2104845-Dipteris_conjugata
+|  |                 |  |  +--| (98)
+|  |                 |  |  |  +---WLAR1_VIBO-2007835-Osmunda_javanica
+|  |                 |  +--| (90)
+|  |                 |     |       +-------WLAR1_MEKP-2006924-Dipteris_conjugata
+|  |                 |     |  +----| (99)
+|  |                 |     |  |    |          +--WLAR1_PNZO-2007161-Culcita_macrocarpa
+|  |                 |     |  |    |       +--| (97)
+|  |                 |     |  |    |       |  +--WLAR1_PNZO-2007160-Culcita_macrocarpa
+|  |                 |     |  |    +-------| (100)
+|  |                 |     |  |            +--WLAR1_EWXK-2119988-Thyrsopteris_elegans
+|  |                 |     +--| (56)
+|  |                 |        |         +--WLAR1_PNZO-2013494-Culcita_macrocarpa
+|  |                 |        +---------| (100)
+|  |                 |                  +--WLAR1_EWXK-2121103-Thyrsopteris_elegans
+|  |              +--| (90)
+|  |              |  |  +--WLAR1_VIBO-2006262-Osmunda_javanica
+|  |              |  +--| (100)
+|  |              |     +--WLAR1_VIBO-2006264-Osmunda_javanica
+|  |           +--| (60)
+|  |           |  +-----------WLAR1_CQPW-2096458-Anemia_tomentosa
+|  |        +--| (56)
+|  |        |  |        +--WLAR1_PNZO-2149017-Culcita_macrocarpa
+|  |        |  |     +--| (98)
+|  |        |  |     |  +--WLAR1_EWXK-2024179-Thyrsopteris_elegans
+|  |        |  |  +--| (59)
+|  |        |  |  |  +----WLAR1_CQPW-2014224-Anemia_tomentosa
+|  |        |  +--| (41)
+|  |        |     +--WLAR1_MEKP-2001942-Dipteris_conjugata
+|  |     +--| (75)
+|  |     |  |  +--WLAR1_EWXK-2022152-Thyrsopteris_elegans
+|  |     |  +--| (96)
+|  |     |     +--WLAR1_PNZO-2026447-Culcita_macrocarpa
+|  +-----| (100)
+|        |     +----------WLAR1_PIVW-2013241-Ceratopteris_thalictroides
+|        |  +--| (40)
+|        |  |  |  +--WLAR1_YJJY-2003866-Woodsia_scopulina
+|        |  |  +--| (100)
+|        |  |     +**WLAR1_YJJY-2003867-Woodsia_scopulina
+|        +--| (96)
+|           |  +---WLAR1_PIVW-2091514-Ceratopteris_thalictroides
+|           +--| (36)
+|              +----WLAR1_ZXJO-2007558-Hemionitis_arifolia
+|
+|  +--WLAR1_CVEG-2016335-Azolla_cf._caroliniana
++--| (100)
+   +--WLAR1_CVEG-2016336-Azolla_cf._caroliniana
+
+Tree in newick format:
+
+(WLAR1_Afi_v2_s1241G000080.2:0.1920655751,(WLAR1_Afi_v2_s1241G000110.6:0.0747766721,((((((((((((((((((LAR_Azolla:0.0000020273,LAR_Azfi_s0197.g057377:0.0715302630)94:0.0088722545,LAR_CVEG-2005709-Azolla_cf._caroliniana:0.0095549937)100:0.0568685446,(((LAR_PIVW-2004875-Ceratopteris_thalictroides:0.0491399510,(LAR_PIVW-2004244-Ceratopteris_thalictroides:0.0000020273,LAR_PIVW-2004243-Ceratopteris_thalictroides:0.0000020273)100:0.0580207858)100:0.0623729541,((LAR_ZXJO-2004443-Hemionitis_arifolia:0.0000020273,(LAR_ZXJO-2004441-Hemionitis_arifolia:0.0000020273,LAR_ZXJO-2004442-Hemionitis_arifolia:0.0000020273)25:0.0000020273)100:0.0459256570,(LAR_ZXJO-2003107-Hemionitis_arifolia:0.0000020273,LAR_ZXJO-2003105-Hemionitis_arifolia:0.0000028102)100:0.0814675402)61:0.0218881112)100:0.0725509635,LAR_YJJY-2005734-Woodsia_scopulina:0.0740906059)99:0.0514512334)49:0.0229047486,(LAR_PNZO-2008392-Culcita_macrocarpa:0.0445745778,LAR_PNZO-2022483-Culcita_macrocarpa:0.0320730583)74:0.0260092447)13:0.0084750570,((LAR_MEKP-2006126-Dipteris_conjugata:0.0747094429,LAR_PNZO-2020054-Culcita_macrocarpa:0.0565448162)29:0.0198046737,(LAR_MEKP-2104936-Dipteris_conjugata:0.0928939291,LAR_CQPW-2095554-Anemia_tomentosa:0.0678628173)44:0.0092787839)22:0.0220094607)92:0.0378745766,LAR_VIBO-2074404-Osmunda_javanica:0.0501665901)98:0.0624561605,LAR_VIBO-2075523-Osmunda_javanica:0.0460621007)65:0.0385692393,LAR_MEKP-2009607-Dipteris_conjugata:0.1537100108)48:0.0213476779,LAR_UGNK-2002432-Marattia_attenuata:0.1462775515)100:0.1525735174,((((((WLAR2_CQPW-2024177-Anemia_tomentosa:0.3154816602,WLAR2_PIVW-2009700-Ceratopteris_thalictroides:0.4460110292)87:0.1321246437,WLAR2_MEKP-2104929-Dipteris_conjugata:0.2680535869)100:0.3560103046,(((WLAR2_EWXK-2012291-Thyrsopteris_elegans:0.0093942671,WLAR2_EWXK-2012289-Thyrsopteris_elegans:0.0000021298)100:0.0572000474,WLAR2_YJJY-2008533-Woodsia_scopulina:0.1953723259)86:0.0569875616,(WLAR2_ZXJO-2008167-Hemionitis_arifolia:0.0000020273,WLAR2_ZXJO-2008168-Hemionitis_arifolia:0.0000020216)100:0.3658462930)99:0.1868208669)75:0.0331203277,WLAR2_MEKP-2014651-Dipteris_conjugata:0.2234203771)45:0.0249964361,(WLAR2_MEKP-2105811-Dipteris_conjugata:0.2113942857,WLAR2_VIBO-2008406-Osmunda_javanica:0.1165375550)84:0.0680114084)99:0.1694964651,(((((WLAR2_MEKP-2101772-Dipteris_conjugata:0.1772669929,(WLAR2_MEKP-2006789-Dipteris_conjugata:0.0000020273,WLAR2_MEKP-2006790-Dipteris_conjugata:0.0000020273)100:0.3267007588)100:0.1651713840,WLAR2_UGNK-2020446-Marattia_attenuata:0.2555772616)76:0.0558124983,((WLAR2_EWXK-2000843-Thyrsopteris_elegans:0.0000027541,WLAR2_EWXK-2000844-Thyrsopteris_elegans:0.0095293892)100:0.0915484569,WLAR2_EWXK-2000842-Thyrsopteris_elegans:0.1023605657)100:0.4939361473)58:0.0347211954,(((WLAR2_ALVQ-2004507-Tmesipteris_parva:0.0269543198,WLAR2_ALVQ-2004506-Tmesipteris_parva:0.0000020273)97:0.0212324423,WLAR2_ALVQ-2004508-Tmesipteris_parva:0.0995589467)97:0.0701636467,WLAR2_QVMR-2013662-Psilotum_nudum:0.1107394099)100:0.2061246923)99:0.1299571718,((((WLAR2_ALVQ-2000101-Tmesipteris_parva:0.0000020273,WLAR2_ALVQ-2000100-Tmesipteris_parva:0.0000024289)100:0.1142368028,WLAR2_QVMR-2016059-Psilotum_nudum:0.0902411193)100:0.0569381682,WLAR2_ALVQ-2018495-Tmesipteris_parva:0.1301784555)97:0.0800202379,(((WLAR2_UGNK-2021731-Marattia_attenuata:0.1947799857,(WLAR2_PNZO-2016614-Culcita_macrocarpa:0.0000020273,WLAR2_PNZO-2016613-Culcita_macrocarpa:0.0084251299)100:0.2425113412)98:0.1366901748,(WLAR2_ALVQ-2007082-Tmesipteris_parva:0.0553808496,WLAR2_QVMR-2017404-Psilotum_nudum:0.0466751841)100:0.2833816458)40:0.0440928405,WLAR2_UGNK-2006528-Marattia_attenuata:0.2251355513)38:0.0239996478)75:0.0638656084)94:0.0796159187)80:0.0456369644)52:0.0461631684,((WLAR1_CAPN-2038587-Equisetum_diffusum:0.0327258291,WLAR1_JVSZ-2129506-Equisetum_hymale:0.0225620809)100:0.2841003537,(WLAR1_JVSZ-2001809-Equisetum_hymale:0.0749758573,((WLAR1_JVSZ-2001810-Equisetum_hymale:0.0030457886,WLAR1_JVSZ-2001811-Equisetum_hymale:0.0000020273)100:0.0294327300,WLAR1_JVSZ-2001808-Equisetum_hymale:0.0713498191)100:0.1144341408)100:0.1745133058)98:0.1171106923)29:0.0196776288,(WLAR1_UGNK-2017109-Marattia_attenuata:0.2596146589,WLAR1_UGNK-2021182-Marattia_attenuata:0.1686161834)98:0.0848294367)51:0.0328972816,((((WLAR1_EWXK-2121424-Thyrsopteris_elegans:0.0235314441,WLAR1_PNZO-2150800-Culcita_macrocarpa:0.0549965405)100:0.2134001080,WLAR1_MEKP-2104845-Dipteris_conjugata:0.1603527967)100:0.1642805315,WLAR1_VIBO-2007835-Osmunda_javanica:0.1298041971)98:0.1143094201,((WLAR1_MEKP-2006924-Dipteris_conjugata:0.2478443697,((WLAR1_PNZO-2007161-Culcita_macrocarpa:0.0093526193,WLAR1_PNZO-2007160-Culcita_macrocarpa:0.0149565652)97:0.0374643340,WLAR1_EWXK-2119988-Thyrsopteris_elegans:0.0488398485)100:0.2442986599)99:0.1515908381,(WLAR1_PNZO-2013494-Culcita_macrocarpa:0.0465799622,WLAR1_EWXK-2121103-Thyrsopteris_elegans:0.0195757702)100:0.3114941511)56:0.0339079052)90:0.0698362839)81:0.0605615486,(WLAR1_VIBO-2006262-Osmunda_javanica:0.0784064915,WLAR1_VIBO-2006264-Osmunda_javanica:0.0380060689)100:0.0890606929)90:0.0725391495,WLAR1_CQPW-2096458-Anemia_tomentosa:0.3766339322)60:0.0375819720,(((WLAR1_PNZO-2149017-Culcita_macrocarpa:0.0438289530,WLAR1_EWXK-2024179-Thyrsopteris_elegans:0.0306590427)98:0.0461839646,WLAR1_CQPW-2014224-Anemia_tomentosa:0.1611667421)59:0.0308464660,WLAR1_MEKP-2001942-Dipteris_conjugata:0.1141262145)41:0.0296714924)56:0.0394909804,(WLAR1_EWXK-2022152-Thyrsopteris_elegans:0.0821653561,WLAR1_PNZO-2026447-Culcita_macrocarpa:0.0433870875)96:0.0474390695)75:0.0335690663,((WLAR1_PIVW-2013241-Ceratopteris_thalictroides:0.3281426179,(WLAR1_YJJY-2003866-Woodsia_scopulina:0.0196505173,WLAR1_YJJY-2003867-Woodsia_scopulina:0.0000020311)100:0.1130327085)40:0.0258229600,(WLAR1_PIVW-2091514-Ceratopteris_thalictroides:0.1478728828,WLAR1_ZXJO-2007558-Hemionitis_arifolia:0.1567729876)36:0.0161947770)96:0.0896310031)100:0.2064459006)67:0.0204170810,(WLAR1_CVEG-2016335-Azolla_cf._caroliniana:0.0069526850,WLAR1_CVEG-2016336-Azolla_cf._caroliniana:0.0143464976)100:0.0587765468);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000bootstrap trees
+Log-likelihood of consensus tree: -20156.992939
+Robinson-Foulds distance between ML tree and consensus tree: 8
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----WLAR1_Afi_v2_s1241G000080.2
+|
+|  +--WLAR1_Afi_v2_s1241G000110.6
++--| (67)
+|  |                                                           +--LAR_Azolla
+|  |                                                        +--| (94)
+|  |                                                        |  +--LAR_Azfi_s0197.g057377
+|  |                                                     +--| (100)
+|  |                                                     |  +--LAR_CVEG-2005709-Azolla_cf._caroliniana
+|  |                                                  +--| (49)
+|  |                                                  |  |        +--LAR_PIVW-2004875-Ceratopteris_thalictroides
+|  |                                                  |  |     +--| (100)
+|  |                                                  |  |     |  |  +--LAR_PIVW-2004244-Ceratopteris_thalictroides
+|  |                                                  |  |     |  +--| (100)
+|  |                                                  |  |     |     +--LAR_PIVW-2004243-Ceratopteris_thalictroides
+|  |                                                  |  |  +--| (100)
+|  |                                                  |  |  |  |        +--LAR_ZXJO-2004443-Hemionitis_arifolia
+|  |                                                  |  |  |  |     +--| (42)
+|  |                                                  |  |  |  |     |  +--LAR_ZXJO-2004441-Hemionitis_arifolia
+|  |                                                  |  |  |  |  +--| (100)
+|  |                                                  |  |  |  |  |  +--LAR_ZXJO-2004442-Hemionitis_arifolia
+|  |                                                  |  |  |  +--| (61)
+|  |                                                  |  |  |     |  +--LAR_ZXJO-2003107-Hemionitis_arifolia
+|  |                                                  |  |  |     +--| (100)
+|  |                                                  |  |  |        +--LAR_ZXJO-2003105-Hemionitis_arifolia
+|  |                                                  |  +--| (99)
+|  |                                                  |     +--LAR_YJJY-2005734-Woodsia_scopulina
+|  |                                               +--| (13)
+|  |                                               |  |  +--LAR_PNZO-2008392-Culcita_macrocarpa
+|  |                                               |  +--| (74)
+|  |                                               |     +--LAR_PNZO-2022483-Culcita_macrocarpa
+|  |                                            +--| (92)
+|  |                                            |  |     +--LAR_MEKP-2006126-Dipteris_conjugata
+|  |                                            |  |  +--| (29)
+|  |                                            |  |  |  +--LAR_PNZO-2020054-Culcita_macrocarpa
+|  |                                            |  +--| (22)
+|  |                                            |     |  +--LAR_MEKP-2104936-Dipteris_conjugata
+|  |                                            |     +--| (44)
+|  |                                            |        +--LAR_CQPW-2095554-Anemia_tomentosa
+|  |                                         +--| (98)
+|  |                                         |  +--LAR_VIBO-2074404-Osmunda_javanica
+|  |                                      +--| (65)
+|  |                                      |  +--LAR_VIBO-2075523-Osmunda_javanica
+|  |                                   +--| (48)
+|  |                                   |  +----LAR_MEKP-2009607-Dipteris_conjugata
+|  |                              +----| (100)
+|  |                              |    +---LAR_UGNK-2002432-Marattia_attenuata
+|  |                           +--| (52)
+|  |                           |  |                             +---------WLAR2_CQPW-2024177-Anemia_tomentosa
+|  |                           |  |                         +---| (87)
+|  |                           |  |                         |   +--------------WLAR2_PIVW-2009700-Ceratopteris_thalictroides
+|  |                           |  |             +-----------| (100)
+|  |                           |  |             |           +--------WLAR2_MEKP-2104929-Dipteris_conjugata
+|  |                           |  |          +--| (75)
+|  |                           |  |          |  |           +--WLAR2_EWXK-2012291-Thyrsopteris_elegans
+|  |                           |  |          |  |        +--| (100)
+|  |                           |  |          |  |        |  +--WLAR2_EWXK-2012289-Thyrsopteris_elegans
+|  |                           |  |          |  |     +--| (86)
+|  |                           |  |          |  |     |  +-----WLAR2_YJJY-2008533-Woodsia_scopulina
+|  |                           |  |          |  +-----| (99)
+|  |                           |  |          |        |           +--WLAR2_ZXJO-2008167-Hemionitis_arifolia
+|  |                           |  |          |        +-----------| (100)
+|  |                           |  |          |                    +--WLAR2_ZXJO-2008168-Hemionitis_arifolia
+|  |                           |  |       +--| (45)
+|  |                           |  |       |  +------WLAR2_MEKP-2014651-Dipteris_conjugata
+|  |                           |  |  +----| (99)
+|  |                           |  |  |    |  +------WLAR2_MEKP-2105811-Dipteris_conjugata
+|  |                           |  |  |    +--| (84)
+|  |                           |  |  |       +--WLAR2_VIBO-2008406-Osmunda_javanica
+|  |                           |  +--| (80)
+|  |                           |     |                 +-----WLAR2_MEKP-2101772-Dipteris_conjugata
+|  |                           |     |            +----| (100)
+|  |                           |     |            |    |         +--WLAR2_MEKP-2006789-Dipteris_conjugata
+|  |                           |     |            |    +---------| (100)
+|  |                           |     |            |              +--WLAR2_MEKP-2006790-Dipteris_conjugata
+|  |                           |     |         +--| (76)
+|  |                           |     |         |  +-------WLAR2_UGNK-2020446-Marattia_attenuata
+|  |                           |     |      +--| (58)
+|  |                           |     |      |  |                  +--WLAR2_EWXK-2000843-Thyrsopteris_elegans
+|  |                           |     |      |  |               +--| (100)
+|  |                           |     |      |  |               |  +--WLAR2_EWXK-2000844-Thyrsopteris_elegans
+|  |                           |     |      |  +---------------| (100)
+|  |                           |     |      |                  +--WLAR2_EWXK-2000842-Thyrsopteris_elegans
+|  |                           |     |  +---| (99)
+|  |                           |     |  |   |            +--WLAR2_ALVQ-2004507-Tmesipteris_parva
+|  |                           |     |  |   |         +--| (97)
+|  |                           |     |  |   |         |  +--WLAR2_ALVQ-2004506-Tmesipteris_parva
+|  |                           |     |  |   |      +--| (97)
+|  |                           |     |  |   |      |  +--WLAR2_ALVQ-2004508-Tmesipteris_parva
+|  |                           |     |  |   +------| (100)
+|  |                           |     |  |          +--WLAR2_QVMR-2013662-Psilotum_nudum
+|  |                           |     +--| (94)
+|  |                           |        |              +--WLAR2_ALVQ-2000101-Tmesipteris_parva
+|  |                           |        |           +--| (100)
+|  |                           |        |           |  +--WLAR2_ALVQ-2000100-Tmesipteris_parva
+|  |                           |        |        +--| (100)
+|  |                           |        |        |  +--WLAR2_QVMR-2016059-Psilotum_nudum
+|  |                           |        |     +--| (97)
+|  |                           |        |     |  +---WLAR2_ALVQ-2018495-Tmesipteris_parva
+|  |                           |        |  +--| (43)
+|  |                           |        |  |  +------WLAR2_UGNK-2006528-Marattia_attenuata
+|  |                           |        +--| (75)
+|  |                           |           |      +-----WLAR2_UGNK-2021731-Marattia_attenuata
+|  |                           |           |  +---| (98)
+|  |                           |           |  |   |       +--WLAR2_PNZO-2016614-Culcita_macrocarpa
+|  |                           |           |  |   +-------| (100)
+|  |                           |           |  |           +--WLAR2_PNZO-2016613-Culcita_macrocarpa
+|  |                           |           +--| (40)
+|  |                           |              |        +--WLAR2_ALVQ-2007082-Tmesipteris_parva
+|  |                           |              +--------| (100)
+|  |                           |                       +--WLAR2_QVMR-2017404-Psilotum_nudum
+|  |                        +--| (29)
+|  |                        |  |            +--WLAR1_CAPN-2038587-Equisetum_diffusum
+|  |                        |  |   +--------| (100)
+|  |                        |  |   |        +--WLAR1_JVSZ-2129506-Equisetum_hymale
+|  |                        |  +---| (98)
+|  |                        |      |    +--WLAR1_JVSZ-2001809-Equisetum_hymale
+|  |                        |      +----| (100)
+|  |                        |           |     +--WLAR1_JVSZ-2001810-Equisetum_hymale
+|  |                        |           |  +--| (100)
+|  |                        |           |  |  +--WLAR1_JVSZ-2001811-Equisetum_hymale
+|  |                        |           +--| (100)
+|  |                        |              +--WLAR1_JVSZ-2001808-Equisetum_hymale
+|  |                     +--| (51)
+|  |                     |  |  +-------WLAR1_UGNK-2017109-Marattia_attenuata
+|  |                     |  +--| (98)
+|  |                     |     +----WLAR1_UGNK-2021182-Marattia_attenuata
+|  |                  +--| (81)
+|  |                  |  |                 +--WLAR1_EWXK-2121424-Thyrsopteris_elegans
+|  |                  |  |          +------| (100)
+|  |                  |  |          |      +--WLAR1_PNZO-2150800-Culcita_macrocarpa
+|  |                  |  |     +----| (100)
+|  |                  |  |     |    +----WLAR1_MEKP-2104845-Dipteris_conjugata
+|  |                  |  |  +--| (98)
+|  |                  |  |  |  +---WLAR1_VIBO-2007835-Osmunda_javanica
+|  |                  |  +--| (90)
+|  |                  |     |       +-------WLAR1_MEKP-2006924-Dipteris_conjugata
+|  |                  |     |  +----| (99)
+|  |                  |     |  |    |          +--WLAR1_PNZO-2007161-Culcita_macrocarpa
+|  |                  |     |  |    |       +--| (97)
+|  |                  |     |  |    |       |  +--WLAR1_PNZO-2007160-Culcita_macrocarpa
+|  |                  |     |  |    +-------| (100)
+|  |                  |     |  |            +--WLAR1_EWXK-2119988-Thyrsopteris_elegans
+|  |                  |     +--| (56)
+|  |                  |        |         +--WLAR1_PNZO-2013494-Culcita_macrocarpa
+|  |                  |        +---------| (100)
+|  |                  |                  +--WLAR1_EWXK-2121103-Thyrsopteris_elegans
+|  |               +--| (90)
+|  |               |  |  +--WLAR1_VIBO-2006262-Osmunda_javanica
+|  |               |  +--| (100)
+|  |               |     +--WLAR1_VIBO-2006264-Osmunda_javanica
+|  |            +--| (60)
+|  |            |  +-----------WLAR1_CQPW-2096458-Anemia_tomentosa
+|  |         +--| (56)
+|  |         |  |        +--WLAR1_PNZO-2149017-Culcita_macrocarpa
+|  |         |  |     +--| (98)
+|  |         |  |     |  +--WLAR1_EWXK-2024179-Thyrsopteris_elegans
+|  |         |  |  +--| (59)
+|  |         |  |  |  +----WLAR1_CQPW-2014224-Anemia_tomentosa
+|  |         |  +--| (41)
+|  |         |     +--WLAR1_MEKP-2001942-Dipteris_conjugata
+|  |      +--| (75)
+|  |      |  |  +--WLAR1_EWXK-2022152-Thyrsopteris_elegans
+|  |      |  +--| (96)
+|  |      |     +--WLAR1_PNZO-2026447-Culcita_macrocarpa
+|  +------| (100)
+|         |     +---------WLAR1_PIVW-2013241-Ceratopteris_thalictroides
+|         |  +--| (44)
+|         |  |  +---WLAR1_PIVW-2091514-Ceratopteris_thalictroides
+|         +--| (96)
+|            |      +--WLAR1_YJJY-2003866-Woodsia_scopulina
+|            |  +---| (100)
+|            |  |   +--WLAR1_YJJY-2003867-Woodsia_scopulina
+|            +--| (35)
+|               +----WLAR1_ZXJO-2007558-Hemionitis_arifolia
+|
+|  +--WLAR1_CVEG-2016335-Azolla_cf._caroliniana
++--| (100)
+   +--WLAR1_CVEG-2016336-Azolla_cf._caroliniana
+
+
+Consensus tree in newick format: 
+
+(WLAR1_Afi_v2_s1241G000080.2:0.1926896027,(WLAR1_Afi_v2_s1241G000110.6:0.0751882459,((((((((((((((((((LAR_Azolla:0.0000020264,LAR_Azfi_s0197.g057377:0.0717950803)94:0.0089185316,LAR_CVEG-2005709-Azolla_cf._caroliniana:0.0095738900)100:0.0571104097,(((LAR_PIVW-2004875-Ceratopteris_thalictroides:0.0493873513,(LAR_PIVW-2004244-Ceratopteris_thalictroides:0.0000020264,LAR_PIVW-2004243-Ceratopteris_thalictroides:0.0000020264)100:0.0581660451)100:0.0625538504,(((LAR_ZXJO-2004443-Hemionitis_arifolia:0.0000020264,LAR_ZXJO-2004441-Hemionitis_arifolia:0.0000020264)42:0.0000020264,LAR_ZXJO-2004442-Hemionitis_arifolia:0.0000020264)100:0.0461823774,(LAR_ZXJO-2003107-Hemionitis_arifolia:0.0000020264,LAR_ZXJO-2003105-Hemionitis_arifolia:0.0000028091)100:0.0816880635)61:0.0219574176)100:0.0728233424,LAR_YJJY-2005734-Woodsia_scopulina:0.0742626920)99:0.0515944699)49:0.0229547083,(LAR_PNZO-2008392-Culcita_macrocarpa:0.0448129807,LAR_PNZO-2022483-Culcita_macrocarpa:0.0320457214)74:0.0260902093)13:0.0084876455,((LAR_MEKP-2006126-Dipteris_conjugata:0.0750280193,LAR_PNZO-2020054-Culcita_macrocarpa:0.0565869067)29:0.0198407762,(LAR_MEKP-2104936-Dipteris_conjugata:0.0931103620,LAR_CQPW-2095554-Anemia_tomentosa:0.0680472682)44:0.0093010183)22:0.0222856031)92:0.0379440805,LAR_VIBO-2074404-Osmunda_javanica:0.0504208449)98:0.0623157838,LAR_VIBO-2075523-Osmunda_javanica:0.0466148527)65:0.0375775465,LAR_MEKP-2009607-Dipteris_conjugata:0.1549988650)48:0.0214531026,LAR_UGNK-2002432-Marattia_attenuata:0.1471674570)100:0.1537760134,((((((WLAR2_CQPW-2024177-Anemia_tomentosa:0.3167889368,WLAR2_PIVW-2009700-Ceratopteris_thalictroides:0.4462575151)87:0.1327802893,WLAR2_MEKP-2104929-Dipteris_conjugata:0.2686641730)100:0.3555153453,(((WLAR2_EWXK-2012291-Thyrsopteris_elegans:0.0094309651,WLAR2_EWXK-2012289-Thyrsopteris_elegans:0.0000021776)100:0.0570505357,WLAR2_YJJY-2008533-Woodsia_scopulina:0.1964600968)86:0.0571301191,(WLAR2_ZXJO-2008167-Hemionitis_arifolia:0.0000020264,WLAR2_ZXJO-2008168-Hemionitis_arifolia:0.0000021656)100:0.3673649195)99:0.1877462598)75:0.0340990120,WLAR2_MEKP-2014651-Dipteris_conjugata:0.2235306144)45:0.0249349051,(WLAR2_MEKP-2105811-Dipteris_conjugata:0.2126767667,WLAR2_VIBO-2008406-Osmunda_javanica:0.1162690011)84:0.0698323956)99:0.1668103872,(((((WLAR2_MEKP-2101772-Dipteris_conjugata:0.1802632444,(WLAR2_MEKP-2006789-Dipteris_conjugata:0.0000020264,WLAR2_MEKP-2006790-Dipteris_conjugata:0.0000020264)100:0.3238762292)100:0.1680995586,WLAR2_UGNK-2020446-Marattia_attenuata:0.2566000714)76:0.0545370727,((WLAR2_EWXK-2000843-Thyrsopteris_elegans:0.0000020264,WLAR2_EWXK-2000844-Thyrsopteris_elegans:0.0095669527)100:0.0916476714,WLAR2_EWXK-2000842-Thyrsopteris_elegans:0.1031328412)100:0.4981341785)58:0.0331019058,(((WLAR2_ALVQ-2004507-Tmesipteris_parva:0.0270971946,WLAR2_ALVQ-2004506-Tmesipteris_parva:0.0000020264)97:0.0212404388,WLAR2_ALVQ-2004508-Tmesipteris_parva:0.1002384311)97:0.0706578587,WLAR2_QVMR-2013662-Psilotum_nudum:0.1115630932)100:0.2087158994)99:0.1286139787,(((((WLAR2_ALVQ-2000101-Tmesipteris_parva:0.0000020264,WLAR2_ALVQ-2000100-Tmesipteris_parva:0.0000024279)100:0.1126358943,WLAR2_QVMR-2016059-Psilotum_nudum:0.0916880807)100:0.0606807758,WLAR2_ALVQ-2018495-Tmesipteris_parva:0.1252771602)97:0.0751274828,WLAR2_UGNK-2006528-Marattia_attenuata:0.2303160405)43:0.0406357751,((WLAR2_UGNK-2021731-Marattia_attenuata:0.1969872865,(WLAR2_PNZO-2016614-Culcita_macrocarpa:0.0000020264,WLAR2_PNZO-2016613-Culcita_macrocarpa:0.0085537332)100:0.2465956223)98:0.1390814729,(WLAR2_ALVQ-2007082-Tmesipteris_parva:0.0514477094,WLAR2_QVMR-2017404-Psilotum_nudum:0.0510564013)100:0.2829646072)40:0.0344684421)75:0.0583506913)94:0.0769754096)80:0.0496351572)52:0.0462653469,((WLAR1_CAPN-2038587-Equisetum_diffusum:0.0329135063,WLAR1_JVSZ-2129506-Equisetum_hymale:0.0226423416)100:0.2851186302,(WLAR1_JVSZ-2001809-Equisetum_hymale:0.0755290094,((WLAR1_JVSZ-2001810-Equisetum_hymale:0.0030562716,WLAR1_JVSZ-2001811-Equisetum_hymale:0.0000020264)100:0.0294672331,WLAR1_JVSZ-2001808-Equisetum_hymale:0.0717161054)100:0.1147039858)100:0.1750082110)98:0.1193138167)29:0.0184543329,(WLAR1_UGNK-2017109-Marattia_attenuata:0.2602765228,WLAR1_UGNK-2021182-Marattia_attenuata:0.1697837199)98:0.0850335426)51:0.0333089836,((((WLAR1_EWXK-2121424-Thyrsopteris_elegans:0.0236074316,WLAR1_PNZO-2150800-Culcita_macrocarpa:0.0552273482)100:0.2141554659,WLAR1_MEKP-2104845-Dipteris_conjugata:0.1611136003)100:0.1649563151,WLAR1_VIBO-2007835-Osmunda_javanica:0.1302195753)98:0.1149373562,((WLAR1_MEKP-2006924-Dipteris_conjugata:0.2491890177,((WLAR1_PNZO-2007161-Culcita_macrocarpa:0.0093817891,WLAR1_PNZO-2007160-Culcita_macrocarpa:0.0150057706)97:0.0375314922,WLAR1_EWXK-2119988-Thyrsopteris_elegans:0.0490689798)100:0.2446101909)99:0.1521976993,(WLAR1_PNZO-2013494-Culcita_macrocarpa:0.0467585069,WLAR1_EWXK-2121103-Thyrsopteris_elegans:0.0196733348)100:0.3122258208)56:0.0340218386)90:0.0699716600)81:0.0607428059,(WLAR1_VIBO-2006262-Osmunda_javanica:0.0786808288,WLAR1_VIBO-2006264-Osmunda_javanica:0.0381781545)100:0.0899725959)90:0.0728382390,WLAR1_CQPW-2096458-Anemia_tomentosa:0.3776980685)60:0.0375165021,(((WLAR1_PNZO-2149017-Culcita_macrocarpa:0.0439218117,WLAR1_EWXK-2024179-Thyrsopteris_elegans:0.0308591840)98:0.0462765183,WLAR1_CQPW-2014224-Anemia_tomentosa:0.1618831323)59:0.0311388944,WLAR1_MEKP-2001942-Dipteris_conjugata:0.1144156924)41:0.0300011875)56:0.0389094865,(WLAR1_EWXK-2022152-Thyrsopteris_elegans:0.0823379622,WLAR1_PNZO-2026447-Culcita_macrocarpa:0.0436340633)96:0.0486280500)75:0.0305708026,((WLAR1_PIVW-2013241-Ceratopteris_thalictroides:0.3250911705,WLAR1_PIVW-2091514-Ceratopteris_thalictroides:0.1360515699)44:0.0234545153,((WLAR1_YJJY-2003866-Woodsia_scopulina:0.0196858011,WLAR1_YJJY-2003867-Woodsia_scopulina:0.0000020302)100:0.1238485679,WLAR1_ZXJO-2007558-Hemionitis_arifolia:0.1592908797)35:0.0257310956)96:0.0848591973)100:0.2077675500)67:0.0204443920,(WLAR1_CVEG-2016335-Azolla_cf._caroliniana:0.0069539841,WLAR1_CVEG-2016336-Azolla_cf._caroliniana:0.0144274156)100:0.0589667332);
+
+TIME STAMP
+----------
+
+Date and time: Mon May 11 16:01:24 2020
+Total CPU time used: 848.008913 seconds (0h:14m:8s)
+Total wall-clock time used: 288.2356297 seconds (0h:4m:48s)
+

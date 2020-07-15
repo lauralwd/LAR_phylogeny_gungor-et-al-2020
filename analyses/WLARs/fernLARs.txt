@@ -1,0 +1,22 @@
+UGNK-2002432-Marattia_attenuata
+MEKP-2009607-Dipteris_conjugata
+VIBO-2075523-Osmunda_javanica
+VIBO-2074404-Osmunda_javanica
+MEKP-2006126-Dipteris_conjugata
+PNZO-2008392-Culcita_macrocarpa
+PNZO-2022483-Culcita_macrocarpa
+MEKP-2104936-Dipteris_conjugata
+CQPW-2095554-Anemia_tomentosa
+PNZO-2020054-Culcita_macrocarpa
+CVEG-2005709-Azolla_cf._caroliniana
+Azolla filiculoides LAR
+Azfi_s0197.g057377 (characterized LAR)
+YJJY-2005734-Woodsia_scopulina
+ZXJO-2003107-Hemionitis_arifolia
+ZXJO-2003105-Hemionitis_arifolia
+PIVW-2004875-Ceratopteris_thalictroides
+PIVW-2004244-Ceratopteris_thalictroides
+PIVW-2004243-Ceratopteris_thalictroides
+ZXJO-2004441-Hemionitis_arifolia
+ZXJO-2004443-Hemionitis_arifolia
+ZXJO-2004442-Hemionitis_arifolia
