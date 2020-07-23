@@ -23,5 +23,12 @@ Final fasta used for alignment:
 ### Figure as shown in Gungor et al. 2020 (in review) 
 ![PIP enzymes and LAR phylogenetic tree](https://raw.githubusercontent.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/figures/main_text/LAR_orthogroup_selectionv1_guide_v5_17cm_8pts_shalrt_circular_v4.1_brackets_600.svg.png)  
 
+### Guide through the different folders and files.
+The `data` folder contains (unaligned) fasta files, lists of sequence names, and aligned sequences in both trimmed and untrimmed versions. 
+File names tend to be long, but are meant to reflect the history of that specific file. 
+For example: `1kP_LAR_orthogroup_manual-selection-1_guidev4_aligned-mafft-linsi_trim-gt6-seq80.fasta` contains sequences from the 1kP LAR orthogroup from which a manual selection was taken. 
+Second, a set of guide sequences (sequences whose function has been verified) was added.
+These sequences were then aligned with mafft-linsi and trimmed with trimAL settings `-gt .6 and -seq 80.`
+
 ### Data sources used in this project
 
