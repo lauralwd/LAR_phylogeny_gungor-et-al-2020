@@ -21,7 +21,7 @@ Final fasta used for alignment:
  * a manually composed set of [guide sequences](https://github.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/blob/main/data/Erbils_guide_v3.fasta) to annotate and interpret the tree.
  
 ### Figure as shown in Gungor et al. 2020 (in review) 
-![PIP enzymes and LAR phylogenetic tree](https://raw.githubusercontent.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/figures/main_text/LAR_orthogroup_selectionv1_guide_v5_17cm_8pts_shalrt_circular_v4.1_brackets_600.svg.png)  
+![PIP enzymes and LAR phylogenetic tree](https://media.githubusercontent.com/media/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/figures/main_text/LAR_orthogroup_selectionv1_guide_v5_17cm_8pts_shalrt_circular_v4.1_brackets_600.svg.png)  
 
 ### Guide through folders and files
 The `data` folder contains (unaligned) fasta files, lists of sequence names, and aligned sequences in both trimmed and untrimmed versions. 
