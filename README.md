@@ -1,5 +1,5 @@
-This repository contains phylogenetic trees of LAR and LAR like proteins as described in Güngör et al. 2020 (link will follow upon publication). 
-Additionally, this repository lists all code and intermediate files made in the process towards that tree.
+This repository contains a phylogenetic tree of LAR and other PIP family enzymes as shown in Güngör et al. 2020: Azolla ferns testify: seed plants and ferns share a common ancestor for leucoanthocyanidin reductase enzymes (link will follow upon publication). 
+Additionally, this repository details all code and intermediate files used in the process towards that tree.
 
 ### Quick links:
 Phylogeny of LAR and LAR likes in plants:
