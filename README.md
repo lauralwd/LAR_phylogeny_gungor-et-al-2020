@@ -30,5 +30,12 @@ For example: `1kP_LAR_orthogroup_manual-selection-1_guidev4_aligned-mafft-linsi_
 Second, a set of guide sequences (sequences whose function has been verified) was added.
 These sequences were then aligned with mafft-linsi and trimmed with trimAL settings `-gt .6 and -seq 80.`
 
+The `analyses` folder contains tree inferences. 
+These are organised in folders of starting dataset, and then in folders of alignment and trimming strategy.
+Still, a folder may contain several tree inferences made with IQTree. 
+The final part of the filename sumarises the settings used to create a particular tree file. 
+Note that intermediate trees are just that, intermediate results. 
+The `fernLARclades_analyses` directory contains tree inferences on specifically the fern LAR, WLAR1 and WLAR2 clades as shown in figure 8 of Güngör _et al_. 2020.
+
 ### Data sources used in this project
 
