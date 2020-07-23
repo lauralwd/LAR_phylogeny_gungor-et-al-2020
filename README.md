@@ -51,9 +51,9 @@ Except perhaps, for two _Azolla filiculoides_ sequences for which we have manual
 _Azolla_ automated annotations are available on [fernbase](ftp://ftp.fernbase.org/Azolla_filiculoides/Azolla_asm_v1.1/)
 The manually annotated sequences used here, were submitted to EBI's [ENA](https://www.ebi.ac.uk/ena/browser/home) under study accession number [PRJEB39515](https://www.ebi.ac.uk/ena/browser/view/PRJEB39515).
 These sequences are also hosted in this github repository as 
-[nucleotide]() 
+[nucleotide](https://raw.githubusercontent.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/figures/AzfiLAR_ENA-submission.fna) 
 and 
-[protein]() 
+[protein](https://raw.githubusercontent.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/figures/AzfiLAR_ENA-submission.faa) 
 fasta files. 
 
 Notably, we have made use of data made available by the [1000 plant transcriptomes project](https://sites.google.com/a/ualberta.ca/onekp/) (1kP).
