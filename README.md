@@ -37,5 +37,9 @@ The final part of the filename sumarises the settings used to create a particula
 Note that intermediate trees are just that, intermediate results. 
 The `fernLARclades_analyses` directory contains tree inferences on specifically the fern LAR, WLAR1 and WLAR2 clades as shown in figure 8 of Güngör _et al_. 2020.
 
+The `figures` folder contains the final versions of the figures shown in Güngör _et al_. in several formats. 
+These were made by importing a `.treefile` in [iToL](https://itol.embl.de/), then adding annotation manually, and downloading these as `.svg` file.
+These `.svg` files were then finalised in inkscape to their published form and exported as pdf or png. 
+
 ### Data sources used in this project
 
