@@ -46,4 +46,18 @@ The workflow describing the final version of the tree is [tree_building_workflow
 The other two workflows are explorative and should be interpreted as such. 
 
 ### Data sources used in this project
+In building these trees, we have made use of publicly available data exlusively. 
+Except perhaps, for two _Azolla filiculoides_ sequences for which we have manually corrected the automated annotation.
+_Azolla_ automated annotations are available on [fernbase](ftp://ftp.fernbase.org/Azolla_filiculoides/Azolla_asm_v1.1/)
+The manually annotated sequences used here, were submitted to EBI's [ENA](https://www.ebi.ac.uk/ena/browser/home) under study accession number [PRJEB39515](https://www.ebi.ac.uk/ena/browser/view/PRJEB39515).
+These sequences are also hosted in this github repository as 
+[nucleotide]() 
+and 
+[protein]() 
+fasta files. 
+
+Notably, we have made use of data made available by the [1000 plant transcriptomes project](https://sites.google.com/a/ualberta.ca/onekp/) (1kP).
+First, we made use of the [1kP orthogroup extractor](http://jlmwiki.plantbio.uga.edu/onekp/v2/) to extract a LAR orthogroup by providing it with the _Vitis vinifera_ LAR sequence. 
+Second we made use of the online [sample list viewer](http://www.onekp.com/samples/list.php) to create a subset of the 1kP PIP enzyme orthogroup; taking care to sample accross the tree of all plants with extra attention to seed-free plants. 
+The subset used here is online in [google sheets](https://docs.google.com/spreadsheets/d/1v2igxY_nr7ETMoUdbqpY0QKVxJ-KYiRiO2lLoyOABsw/edit?usp=sharing) and the resulting lists are stored here in the `data` directory.
 
