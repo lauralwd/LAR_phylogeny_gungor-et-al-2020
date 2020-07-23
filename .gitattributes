@@ -3,3 +3,8 @@
 *.svg filter=lfs diff=lfs merge=lfs -text
 *.boottrees filter=lfs diff=lfs merge=lfs -text
 *.mldist filter=lfs diff=lfs merge=lfs -text
+data/1kP_LAR_orthogroup.fasta filter=lfs diff=lfs merge=lfs -text
+fernLARclades_analyses/fernLARclades_tree/fernLARclades_aligned-mafft-linsi_iqtree-b1000.log filter=lfs diff=lfs merge=lfs -text
+fernLARclades_analyses/fernLARclades_tree/fernLARclades_aligned-mafft-linsi_iqtree-b1000.stdout filter=lfs diff=lfs merge=lfs -text
+analyses/1kP_LAR_orthogroup_manual-selection-1_guidev4_trees/aligned-mafft-linsi_trim-gt6-seq80/1kP_LAR_orthogroup_manual-selection-1_guidev4_aligned-mafft-linsi_trim-gt6-seq80_iqtree-b1000.log filter=lfs diff=lfs merge=lfs -text
+analyses/1kP_LAR_selectionv1_guide_v5_trees/aligned-mafft-linsi_trim-gt4-seq95-res7/1kP_LAR_selectionv1_guide_v5_aligned-mafft-linsi_trim-gt4-seq95-res7_iqtree-b1000.log filter=lfs diff=lfs merge=lfs -text
