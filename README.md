@@ -1,4 +1,4 @@
-This repository contains a phylogenetic tree of LAR and other PIP family enzymes as shown in Güngör et al. 2020: Azolla ferns testify: seed plants and ferns share a common ancestor for leucoanthocyanidin reductase enzymes (link will follow upon publication). 
+This repository contains a phylogenetic tree of LAR and other PIP family enzymes as shown in Güngör _et al_. 2020: Azolla ferns testify: seed plants and ferns share a common ancestor for leucoanthocyanidin reductase enzymes (link will follow upon publication). 
 Additionally, this repository details all code and intermediate files used in the process towards that tree.
 
 ### Quick links:
@@ -20,7 +20,7 @@ Final fasta used for alignment:
  * a [selection from the 1kP orthogroup](https://raw.githubusercontent.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/data/1kP_LAR_orthogroup_manual-selection-1.fasta) 
  * a manually composed set of [guide sequences](https://github.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/blob/main/data/Erbils_guide_v3.fasta) to annotate and interpret the tree.
  
-### Final figure as shown in Güngör et al. 2020
+### Final figure as shown in Güngör _et al_. 2020
 ![PIP enzymes and LAR phylogenetic tree](https://media.githubusercontent.com/media/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/figures/main_text/LAR_orthogroup_selectionv1_guide_v5_17cm_8pts_shalrt_circular_v4.1_brackets_600.svg.png)  
 
 ### Guide through folders and files
