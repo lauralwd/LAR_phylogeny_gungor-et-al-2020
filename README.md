@@ -41,5 +41,9 @@ The `figures` folder contains the final versions of the figures shown in Güngö
 These were made by importing a `.treefile` in [iToL](https://itol.embl.de/), then adding annotation manually, and downloading these as `.svg` file.
 These `.svg` files were then finalised in inkscape to their published form and exported as pdf or png. 
 
+The workflows for which data is shared here, are documented in JuPyter notebookbooks (`*.ipynb`).
+The workflow describing the final version of the tree is [tree_building_workflow_v5](https://github.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/blob/main/tree_building_workflow_v5.ipynb). 
+The other two workflows are explorative and should be interpreted as such. 
+
 ### Data sources used in this project
 
