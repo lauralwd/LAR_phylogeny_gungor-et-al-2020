@@ -61,3 +61,8 @@ First, we made use of the [1kP orthogroup extractor](http://jlmwiki.plantbio.uga
 Second we made use of the online [sample list viewer](http://www.onekp.com/samples/list.php) to create a subset of the 1kP PIP enzyme orthogroup; taking care to sample accross the tree of all plants with extra attention to seed-free plants. 
 The subset used here is online in [google sheets](https://docs.google.com/spreadsheets/d/1v2igxY_nr7ETMoUdbqpY0QKVxJ-KYiRiO2lLoyOABsw/edit?usp=sharing) and the resulting lists are stored here in the `data` directory.
 
+The 1kP project provides a wealth of sequencing information on taxa of plants for which few seqeunces are available from genome sequences, let alone sequences of which their function is verified. 
+Therefore, we thankfully made use of the sequences collected in literature and online databases; 
+most notably so in Koeduka's paper 'Functional evolution of biosynthetic enzymes that produce plant volatiles' published in 'Bioscience, Biotechnology, and Biochemistry' in 2018.
+Each of these sequences and their original accession number are listed in [this fasta file](https://raw.githubusercontent.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/data/Erbils_guide_v3.fasta).
+ 
