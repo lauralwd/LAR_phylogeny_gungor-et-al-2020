@@ -15,8 +15,7 @@ Phylogeny of LAR and LAR likes in plants:
 Final alignment: [raw](https://raw.githubusercontent.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/data/alignments_raw/1kP_LAR_selectionv1_guide_v5_aligned-mafft-linsi.fasta) 
 & [trimmed](https://raw.githubusercontent.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/data/alignments_trimmed/1kP_LAR_selectionv1_guide_v5_aligned-mafft-linsi_trim-gt4-seq95-res7.fasta)
 
-Final fasta used for alignment:
- * the [complete fasta](https://raw.githubusercontent.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/data/1kP_LAR_selectionv1_guide_v5.fasta) file
+Final [complete fasta file ](https://raw.githubusercontent.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/data/1kP_LAR_selectionv1_guide_v5.fasta) used for the alignment which consists of: 
  * a [selection from the 1kP orthogroup](https://raw.githubusercontent.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/data/1kP_LAR_orthogroup_manual-selection-1.fasta) 
  * a manually composed set of [guide sequences](https://github.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/blob/main/data/Erbils_guide_v3.fasta) to annotate and interpret the tree.
  
