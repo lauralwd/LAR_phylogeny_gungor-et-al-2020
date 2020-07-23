@@ -43,7 +43,7 @@ These `.svg` files were then finalised in inkscape to their published form and e
 
 The workflows for which data is shared here, are documented in JuPyter notebookbooks (`*.ipynb`).
 The workflow describing the final version of the tree is [tree_building_workflow_v5](https://github.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/blob/main/tree_building_workflow_v5.ipynb). 
-The other two workflows are explorative and should be interpreted as such. 
+The other two workflows are explorative and should be interpreted as such. Note that figures which are embeded in the JuPyter notebooks are not propperly displayed online on github. You may download the `.ipynb` files to display them locally including images.
 
 ### Data sources used in this project
 In building these trees, we have made use of publicly available data exlusively. 
