@@ -1,5 +1,5 @@
-This repository contains phylogenetic trees of LAR and LAR like proteins as described in Güngör et al. 2020 (link will follow upon publication). 
-Additionally, this repository lists all code and intermediate files made in the process towards that tree.
+This repository contains a phylogenetic tree of LAR and other PIP family enzymes as shown in Güngör _et al_. 2020: Azolla ferns testify: seed plants and ferns share a common ancestor for leucoanthocyanidin reductase enzymes (link will follow upon publication). 
+Additionally, this repository details all code and intermediate files used in the process towards that tree.
 
 ### Quick links:
 Phylogeny of LAR and LAR likes in plants:
@@ -15,12 +15,11 @@ Phylogeny of LAR and LAR likes in plants:
 Final alignment: [raw](https://raw.githubusercontent.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/data/alignments_raw/1kP_LAR_selectionv1_guide_v5_aligned-mafft-linsi.fasta) 
 & [trimmed](https://raw.githubusercontent.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/data/alignments_trimmed/1kP_LAR_selectionv1_guide_v5_aligned-mafft-linsi_trim-gt4-seq95-res7.fasta)
 
-Final fasta used for alignment:
- * the [complete fasta](https://raw.githubusercontent.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/data/1kP_LAR_selectionv1_guide_v5.fasta) file
+Final [complete fasta file ](https://raw.githubusercontent.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/data/1kP_LAR_selectionv1_guide_v5.fasta) used for the alignment which consists of: 
  * a [selection from the 1kP orthogroup](https://raw.githubusercontent.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/data/1kP_LAR_orthogroup_manual-selection-1.fasta) 
  * a manually composed set of [guide sequences](https://github.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/blob/main/data/Erbils_guide_v3.fasta) to annotate and interpret the tree.
  
-### Figure as shown in Gungor et al. 2020 (in review) 
+### Final figure as shown in Güngör _et al_. 2020
 ![PIP enzymes and LAR phylogenetic tree](https://media.githubusercontent.com/media/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/figures/main_text/LAR_orthogroup_selectionv1_guide_v5_17cm_8pts_shalrt_circular_v4.1_brackets_600.svg.png)  
 
 ### Guide through folders and files
@@ -43,7 +42,10 @@ These `.svg` files were then finalised in Inkscape to their published form and e
 
 The workflows for which data is shared here, are documented in JuPyter notebooks (`*.ipynb`).
 The workflow describing the final version of the tree is [tree_building_workflow_v5](https://github.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/blob/main/tree_building_workflow_v5.ipynb). 
-The other two workflows are explorative and should be interpreted as such. Note that figures which are embedded in the JuPyter notebooks are not properly displayed online on Github. You may download the `.ipynb` files to display them locally, including images.
+The other two workflows are explorative and should be interpreted as such. 
+A blank version of the workflow is maintained [here](https://github.com/lauralwd/lauras_phylogeny_wf).
+Note that figures which are embedded in the JuPyter notebooks are not properly displayed online on Github. 
+You may download the `.ipynb` files to display them locally, including images.
 
 ### Data sources used in this project
 In building these trees, we have made use of publicly available data exclusively. 
