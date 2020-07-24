@@ -45,7 +45,8 @@ The workflow describing the final version of the tree is [tree_building_workflow
 The other two workflows are explorative and should be interpreted as such. 
 A blank version of the workflow is maintained [here](https://github.com/lauralwd/lauras_phylogeny_wf).
 Note that figures which are embedded in the JuPyter notebooks are not properly displayed online on Github. 
-You may download the `.ipynb` files to display them locally, including images.
+You may download the `.ipynb` files to display them locally, including images. 
+Alternatively, a html export may be found [here](https://htmlpreview.github.io/?https://github.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/blob/main/opt/tree_building_workflow_v5.html).
 
 Finaly, the `condaenv.yaml` file details all software names and versions that were used in this project.
 This file may be used to recreate the exact software environment for this analysis using [miniconda](https://docs.conda.io/en/latest/miniconda.html).
