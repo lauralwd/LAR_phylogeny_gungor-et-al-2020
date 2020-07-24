@@ -47,6 +47,11 @@ A blank version of the workflow is maintained [here](https://github.com/lauralwd
 Note that figures which are embedded in the JuPyter notebooks are not properly displayed online on Github. 
 You may download the `.ipynb` files to display them locally, including images.
 
+Finaly, the `condaenv.yaml` file details all software names and versions that were used in this project.
+This file may be used to recreate the exact software environment for this analysis using [miniconda](https://docs.conda.io/en/latest/miniconda.html).
+To do so, issue a command like so `conda env create -f ./condaenv.yaml`. 
+One specific perl script that is not included in the conda environment, is stored in the `opt` directory.
+
 ### Data sources used in this project
 In building these trees, we have made use of publicly available data exclusively. 
 Except perhaps, for two _Azolla filiculoides_ sequences for which we have manually corrected the automated annotation.
