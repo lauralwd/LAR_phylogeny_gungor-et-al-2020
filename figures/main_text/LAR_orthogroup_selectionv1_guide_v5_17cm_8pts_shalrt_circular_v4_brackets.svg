@@ -14,7 +14,7 @@
    viewBox="0 0 170 240"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="LAR_orthogroup_selectionv1_guide_v5_17cm_8pts_shalrt_circular_v4_brackets.svg"
    inkscape:export-filename="/home/laura/Documents/LAR_tree/LAR_orthogroup_selectionv1_guide_v5_17cm_8pts_shalrt_circular_v4_brackets_1200.svg.png"
    inkscape:export-xdpi="1200"
@@ -36,19 +36,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0682895"
-     inkscape:cx="303.65586"
-     inkscape:cy="541.99243"
+     inkscape:zoom="1.5107895"
+     inkscape:cx="231.18222"
+     inkscape:cy="171.5706"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer12"
      showgrid="false"
      inkscape:snap-bbox="true"
      inkscape:snap-intersection-paths="false"
-     inkscape:window-width="824"
-     inkscape:window-height="425"
-     inkscape:window-x="3411"
-     inkscape:window-y="218"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1846"
+     inkscape:window-height="1136"
+     inkscape:window-x="74"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
      inkscape:snap-global="false"
      units="mm"
      inkscape:snap-bbox-edge-midpoints="true"
@@ -65,7 +65,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -37582,9 +37582,17 @@
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:30.00000119%;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:justify;text-anchor:start"
    id="flowSpan13838">Figure 8.</flowSpan> Phylogeny of LAR and other PIP-family enzymes across land plant lineages. Protein sequences were retrieved as a single orthogroup containing the <flowSpan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
-   id="flowSpan13848">Vitis vinifera </flowSpan>LAR from the 1KP orthogroup database2 (Ka-Shu Wong et al., 2019), sub-sampled, and supplemented with guide and <flowSpan
+   id="flowSpan13848">Vitis vinifera </flowSpan>LAR from the 1KP orthogroup database2 (Ka-Shu Wong <flowSpan
+   style="font-style:italic"
+   id="flowSpan12629">et al.</flowSpan>, 2019), sub-sampled, and supplemented with guide and <flowSpan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
-   id="flowSpan13850">A. filiculoides</flowSpan> LAR-like sequences. The 785 sequences were aligned with MAFFT-linsi (Katoh et al., 2019), then trimmed using trimAL (Capella-Gutiérrez et al., 2009) and, using iQtree (Nguyen et al.,2015), the phylogenetic tree computed with the resulting 305 parsimony informative sites. The best-fit substitution model was LG+R7 and bootstrap support was determined via SH-aLRT (Kalyaanamoorthy et al., 2017). The tree was annotated in iTOL; highlighting characterized enzymes and sequences of particular interest (Letunic and Bork, 2019). Nodes with bootstrap support equal or greater than 80% SH-aLRT are indicated by circles (a full inventory of the sequences in this tree is in <flowSpan
+   id="flowSpan13850">A. filiculoides</flowSpan> LAR-like sequences. The 785 sequences were aligned with MAFFT-linsi (Katoh et al., 2019), then trimmed using trimAL (Capella-Gutiérrez <flowSpan
+   style="font-style:italic"
+   id="flowSpan12635">et al.</flowSpan>, 2009) and, using iQtree (Nguyen <flowSpan
+   style="font-style:italic"
+   id="flowSpan12637">et al.</flowSpan>,2015), the phylogenetic tree computed with the resulting 305 parsimony informative sites. The best-fit substitution model was LG+R7 and bootstrap support was determined via SH-aLRT (Kalyaanamoorthy <flowSpan
+   style="font-style:italic"
+   id="flowSpan12639">et al.</flowSpan>, 2017). The tree was annotated in iTOL; highlighting characterized enzymes and sequences of particular interest (Letunic &amp; Bork, 2019). Nodes with bootstrap support equal or greater than 80% SH-aLRT are indicated by circles (a full inventory of the sequences in this tree is in <flowSpan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
    id="flowSpan14001">Fig. S7</flowSpan>). EGS and IGS clustered in two groups: IGS/EGS-I and IGS/EGS-II. PLR, pinoresinol-lariciresinol reductase; IFR, isoflavone reductase; PCBER, phenylcoumaran benzylic ether reductase; EGS,  eugenol synthase; IGS, isoeugenol synthase; LAR, leucoanthocyanidin reductase; WLAR, fern specific LAR-like.</flowPara><flowPara
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:30.00000119%;font-family:Arial;-inkscape-font-specification:Arial;text-align:justify;text-anchor:start;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
