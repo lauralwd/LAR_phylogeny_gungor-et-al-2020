@@ -7,8 +7,8 @@ Additionally, this repository details all code and intermediate files used in th
 Phylogeny of LAR and LAR likes in plants:
  *  [treefile](https://raw.githubusercontent.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/analyses/1kP_LAR_selectionv1_guide_v5_trees/aligned-mafft-linsi_trim-gt4-seq95-res7/1kP_LAR_selectionv1_guide_v5_aligned-mafft-linsi_trim-gt4-seq95-res7_iqtree-bb2000-alrt2000.treefile) 
  * main text figure 
- [png](https://media.githubusercontent.com/media/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/figures/main_text/LAR_orthogroup_selectionv1_guide_v5_17cm_8pts_shalrt_circular_v4.1_brackets_600.svg.png), 
- [pdf](https://media.githubusercontent.com/media/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/figures/main_text/LAR_orthogroup_selectionv1_guide_v5_17cm_8pts_shalrt_circular_v4.1_brackets.pdf) & 
+ [png](https://media.githubusercontent.com/media/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/figures/main_text/LAR_orthogroup_selectionv1_guide_v5_17cm_8pts_shalrt_circular_v4.2_brackets_600.svg.png), 
+ [pdf](https://media.githubusercontent.com/media/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/figures/main_text/LAR_orthogroup_selectionv1_guide_v5_17cm_8pts_shalrt_circular_v4.2_brackets.pdf) & 
  [Inkscape_svg](https://raw.githubusercontent.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/figures/main_text/LAR_orthogroup_selectionv1_guide_v5_17cm_8pts_shalrt_circular_v4_brackets.svg)  
  * supplemental figure 
   [pdf](https://media.githubusercontent.com/media/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/figures/supporting_information/LAR_orthogroup_selectionv1_guide_v5_SHaLRT_long_inpage_v3.pdf) & 
@@ -22,7 +22,7 @@ Final [complete fasta file ](https://raw.githubusercontent.com/lauralwd/LAR_phyl
  * a manually composed set of [guide sequences](https://github.com/lauralwd/LAR_phylogeny_gungor-et-al-2020/blob/main/data/Erbils_guide_v3.fasta) to annotate and interpret the tree.
  
 ### Final figure as shown in Güngör _et al_. 2020
-![PIP enzymes and LAR phylogenetic tree](https://media.githubusercontent.com/media/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/figures/main_text/LAR_orthogroup_selectionv1_guide_v5_17cm_8pts_shalrt_circular_v4.1_brackets_600.svg.png)  
+![PIP enzymes and LAR phylogenetic tree](https://media.githubusercontent.com/media/lauralwd/LAR_phylogeny_gungor-et-al-2020/main/figures/main_text/LAR_orthogroup_selectionv1_guide_v5_17cm_8pts_shalrt_circular_v4.2_brackets_600.svg.png)  
 
 ### Guide through folders and files
 The `data` folder contains (unaligned) fasta files, lists of sequence names, and aligned sequences in both trimmed and untrimmed versions. 
